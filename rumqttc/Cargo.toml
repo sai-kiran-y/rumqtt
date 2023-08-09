@@ -9,6 +9,9 @@ edition = "2018"
 keywords = ["mqtt", "iot", "coap", "http"]
 categories = ["network-programming"]
 
+[net]
+git-fetch-with-cli = true
+
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
