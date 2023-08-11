@@ -1,12 +1,11 @@
 [workspace]
-cargo-features = ["namespaced-features"]
-
-[net]
-git-fetch-with-cli = true
-
 members = [
   "rumqttc",
   "rumqttd",
   "benchmarks",
   "benchmarks/simplerouter",
 ]
+
+[net]
+git-fetch-with-cli = true
+
