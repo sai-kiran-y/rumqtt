@@ -1,4 +1,8 @@
 [workspace]
+cargo-features = ["namespaced-features"]
+
+[net]
+git-fetch-with-cli = true
 
 members = [
   "rumqttc",
